@@ -1,0 +1,5 @@
+{
+  "name": "HeatInput",
+  "description": "Calculateur d'énergie de soudage intelligent pour mobile. Utilisez le chronomètre intégré pour mesurer la vitesse d'avance et obtenez des conseils",
+  "requestFramePermissions": []
+}
