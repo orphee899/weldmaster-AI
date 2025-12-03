@@ -10,9 +10,13 @@
       "DOM.Iterable"
     ],
     "skipLibCheck": true,
+    
+    /* La correction importante est ici : on ajoute vite/client */
     "types": [
-      "node", "vite/client"
+      "node",
+      "vite/client"
     ],
+    
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -25,5 +29,15 @@
     },
     "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  
+  /* C'est la partie qu'il te manquait probablement : */
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
