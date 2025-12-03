@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/constants.ts","./src/index.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/calculator.tsx","./src/components/stopwatch.tsx","./src/services/geminiservice.ts","./vite.config.ts"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/constants.ts","./src/index.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/calculator.tsx","./src/components/stopwatch.tsx","./src/services/geminiservice.ts","./src/utils/cvsexport.ts","./vite.config.ts"],"version":"5.6.3"}
